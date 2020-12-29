@@ -12,5 +12,4 @@ def valid_move?(board, index)
     return false
   end
   !!board[index] == "X" || !!board[index] == "O"
-  end
 end
